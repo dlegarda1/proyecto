@@ -1,8 +1,8 @@
 # Proyecto
-Este es un proyecto para la creación de una página web
+
 
 ## Descripción
-Este es un proyecto increíble que hace cosas asombrosas.
+Este es un proyecto para la creación de una página web
 
 ## Instalación
 1. Clona este repositorio.
