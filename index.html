@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PaginaPrincipal</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<body>
+    <h1>Bienvenido a este asistente de llamada a lista</h1> 
+    <p>En los siguientes campos debe diligenciar los datos básicos de los alumnos</p>
+    <div>
+        <form>
+            <label for="nombre">Ingrese el nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="apellido">Ingrese el apellido:</label> 
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="identidad">Ingrese su documento de identidad:</label>
+            <input type="text" id="identidad" name="identidad" required><br><br>
+        
+        </form>
+    <button onclick="validarFormulario()">Agregar Alumno</button>
+    <div id="resultado"></div>
+    </div>      
+                   
+        
+      
+        <!--Script para validar formularios-->
+    <script src="script.js"></script>
+</body>
+</html>
